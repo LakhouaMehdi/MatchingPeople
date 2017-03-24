@@ -8,8 +8,6 @@ public enum DataType {
 	PASSWORD,
 
 	}
-<<<<<<< HEAD
-=======
+
 //servet konak
->>>>>>> refs/heads/master
 //Hello from servet
