@@ -12,3 +12,4 @@ public enum DataType {
 =======
 //servet konak
 >>>>>>> refs/heads/master
+//Hello from servet
