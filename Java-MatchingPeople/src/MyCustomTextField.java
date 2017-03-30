@@ -30,7 +30,7 @@ public final class MyCustomTextField extends JTextField implements KeyListener /
   							  //if intended type is PASSWORD, i recommend you use MyCustomPasswordField instead. 
                               //it works the same but has Hide/show characters features.
   
-  DataValidityChecker checker;  //has a DataValidityChecker that will determine whether the data is valid or not. my type is passed to the DataValidityChecker. see init() method
+  private DataValidityChecker checker;  //has a DataValidityChecker that will determine whether the data is valid or not. my type is passed to the DataValidityChecker. see init() method
                         //it is important that the type of the Data type of JtextField and the type of the checker match.
                         //i.e when myType of text field is changed by a setter method myDataType in the data checker is changed too.
   
@@ -109,13 +109,13 @@ public final class MyCustomTextField extends JTextField implements KeyListener /
 	}
 
 //coloring  //to do: pick better display
- void highlightRed() {
+ private void highlightRed() {
 	 this.setBackground(Color.RED);
  }
- void highlightGreen() {
+ private void highlightGreen() {
 	 this.setBackground(Color.GREEN);     //can do borders instead
  }
- void removeHighlight() {
+ private void removeHighlight() {
 	 this.setBackground(Color.WHITE);
  }
  

@@ -37,6 +37,7 @@ RegisterPanel reg;        //maybe //so modifications stay. to think about.
 	if ( e.getSource()== log.loginBtn){
 		//check if password and user name match an existing user
 	    //log in and open the program
+	
 		
 		  }
     else if (e.getSource()== log.registerBtn){

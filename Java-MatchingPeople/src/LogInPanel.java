@@ -125,6 +125,7 @@ public class LogInPanel extends JPanel //login panel
 		    	 //	((JButton) component).setContentAreaFilled(false);
 		    	   ((JButton) component).  setSize(new Dimension(126, 75));
 		    	   ((JButton) component).  setFocusable(false);
+		    	 //((JButton) component).  setFocusPainted(false);
 		        }
 		        else if (component instanceof JRadioButton){  //radio button settings
 		        	//((JRadioButton) component).setBackground(Color.WHITE);
